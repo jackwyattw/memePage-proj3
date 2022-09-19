@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Kanit&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --font-family: 'Kanit', sans-serif;
+    --font-bold: 'Chakra Petch', sans-serif;
+    --dark-grey: #1b1818;
+    --background-highlight: #0e0067;
+    --background-press: #000;
+    --text-base: rgb(255, 243, 216);
+    --text-subdued: #a7a7a7;
+    --title-color: #2ad8ffd3;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-bg-color);
+    display: grid;
+}
+
+h1 {
+    font-family: var(--font-bold);
+
+}
+/* 
+h2, h3, h4, h5, h6, p {
+    font-family: var(--font-family);
+    color: var(--text-base);
+} */
+
