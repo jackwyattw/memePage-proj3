@@ -6,10 +6,10 @@ function Nav(props) {
     <div>
         <nav>
             <Link to="/">
-            <div>HOME</div>
+            <div>Explore</div>
             </Link>
-            <Link to="/createpost">
-            <div>Create Post</div>
+            <Link to="/create">
+            <div>Create</div>
             </Link>
         </nav>
     </div>

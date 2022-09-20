@@ -5,8 +5,8 @@ import Header from "./components/Header";
 import Nav from "./components/Nav";
 import { Route, Routes } from "react-router-dom";
 //Pages
-import Home from "./pages/Home";
-import CreatePost from "./pages/CreatePost";
+import Explore from "./pages/ExplorePage";
+import CreatePage from "./pages/CreatePage";
 import Four04 from "./pages/Four04";
 
 function App() {
@@ -19,8 +19,8 @@ function App() {
       <Header />
       <Nav />
       <Routes>
-        <Route exact path="/" element={<Home URL={`${URL}`}/>} />
-        <Route exact path="/createpost" element={<CreatePost URL2={`${URL2}`}/>}/>
+        <Route exact path="/" element={<Explore />} />
+        <Route exact path="/create" element={<CreatePage />}/>
         <Route exact path = "/*" element={<Four04 />}/>
       </Routes>
     </div>
