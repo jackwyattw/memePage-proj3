@@ -44,12 +44,11 @@ h2, h3, h4, h5, h6, p, div {
 }
 
 nav{
-  display: flex;
-  justify-content: space-around;
   border: 3px solid black;
   padding: 8px;
   width: 90%;
   margin: auto;
+  text-decoration: none;
 }
 nav:hover{
   background-color: var(--background-press);

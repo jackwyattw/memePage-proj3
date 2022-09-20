@@ -1,16 +1,15 @@
 import { Link } from "react-router-dom";
-import LikedPosts from "../pages/LikedPosts"
 
 function Nav(props) {
   
     return (
-    <div class="main">
+    <div>
         <nav>
             <Link to="/">
             <div>HOME</div>
             </Link>
-            <Link to="/likedposts">
-            <div>Liked Posts</div>
+            <Link to="/createpost">
+            <div>Create Post</div>
             </Link>
         </nav>
     </div>

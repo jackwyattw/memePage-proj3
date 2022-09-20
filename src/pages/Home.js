@@ -1,11 +1,7 @@
 import Meme from "./Meme"
 
-function Home(props) {
-    return (
-    <section className="scroll">
-        <Meme />;
-    </section>
-    )
-  }
-  
-  export default Home;
+function MemesList(props){
+    return(
+    <h2>ToDoList</h2>)
+}
+export default MemesList;
