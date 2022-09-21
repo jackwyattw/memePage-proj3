@@ -32,7 +32,7 @@ function MemesList(){
     return(
         <div>
             {template && (
-                <form onSubmit={ async e => {
+                <form onSubmit={ async (e) => {
                     e.preventDefault()
 
                     const params = {
@@ -66,14 +66,16 @@ function MemesList(){
             {!template && (
                 <>
                     <h1>Choose Your Meme Image</h1>
-                    {templates.map(template => {
+                    {templates.map((template, idx) => {
                         return(
+                            <div key={idx}>
                             <Meme
                             template={template}
                             onClick={() => {
                                 setTemplate(template)
-                            }}
-                            />
+                            }} />
+                            </div>
+                           
                         );
                     })}
                 </>
